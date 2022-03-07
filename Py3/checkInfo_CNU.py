@@ -8,9 +8,9 @@ from urllib import parse
 # Version: V1.5
 # Channel: Official
 
-username = "1191006004"  # CNU统一认证账号;
-password = "Lixiaolong80"  # 登陆密码;
-realname = "李霄龙"
+username = ""  # CNU统一认证账号;
+password = ""  # 登陆密码;
+realname = ""
 
 ##################################################################################################
 
@@ -23,8 +23,8 @@ group_url = main_app + "/ncov/wap/datacube-base/ulists?date=" + time.strftime("%
     time.time())) + "&type=count&page=1&page_size=20&group_id=10&group_type=1"
 
 cookie = { # 需要使用fiddler进行抓包，在抓到的信息中获得该两个值
-    "eai-sess": "5tfr1q98e2aohg9vqmhgqi5rn2",
-    "UUkey": "d918ebd598d01b597ec04c98c94f9f6f"
+    "eai-sess": "",
+    "UUkey": ""
 }
 
 headerC = {

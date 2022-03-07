@@ -8,9 +8,9 @@ from urllib import parse
 # Version: V1.5
 # Channel: Official
 
-username = "1191006004"  # CNU统一认证账号;
-password = "Lixiaolong80"  # 登陆密码;
-realname = "李霄龙"
+username = ""  # CNU统一认证账号;
+password = ""  # 登陆密码;
+realname = ""
 
 ##################################################################################################
 
@@ -33,16 +33,15 @@ remind_url = main_app + "/ncov/wap/datacube-base/remind"
 
 users = [
     {
-        "name": "李霄龙",
+        "name": "",
         "cookie": { # 需要使用fiddler进行抓包，在抓到的信息中获得该两个值
-            "eai-sess": "5tfr1q98e2aohg9vqmhgqi5rn2",
-            "UUkey": "d918ebd598d01b597ec04c98c94f9f6f"
+            "eai-sess": "",
+            "UUkey": ""
         }
     }
 ]
 
-headerC = {
-    "Content-Type": "application/x-www-form-urlencoded",
+headerC = {    "Content-Type": "application/x-www-form-urlencoded",
     "User-Agent": "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 "
                   "Safari/537.36 NetType/WIFI MicroMessenger/7.0.20.1781(0x6700143B) WindowsWechat(0x6305002e)"
 }
@@ -66,7 +65,7 @@ def autoCheck(userCookie):
 
     s = requests.session()
 
-    data = {
+    data = { # address 需要自己填写
         "ismoved": "0",
         "jhfjrq": "",
         "jhfjjtgj": "",
@@ -85,7 +84,7 @@ def autoCheck(userCookie):
         "sfcxzysx": "0",
         "qksm": "",
         "remark": "",
-        "address": "北京市朝阳区农光里小区201楼4-1102",
+        "address": "",
         "area": "北京市",
         "province": "北京市",
         "city": "北京市",
