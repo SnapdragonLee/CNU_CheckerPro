@@ -3,7 +3,7 @@ import json
 import time
 from urllib import parse
 
-# Author: SnapdragonLee
+# Author: Delppine Lorna
 # Time: 2022.2.19
 # Version: V1.5
 # Channel: Official

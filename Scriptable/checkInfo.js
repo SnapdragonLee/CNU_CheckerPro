@@ -2,7 +2,7 @@
 // These must be at the very top of the file. Do not edit.
 // icon-color: deep-purple; icon-glyph: magic;
 
-/* Author: SnapdragonLee
+/* Author: Delppine Lorna
  * Time: 2022.2.15
  * Version: V1.35
  * Channel: Official
